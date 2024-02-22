@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/image1.webp);
+    background-attachment:  fixed;
+    background-size: cover;
+}
+.logoname{
+    align-items: center;
+}
+.logo{
+    font-size: 36px;
+}
+.contact{
+    height: 50px;
+    align-items: center;
+}
+.navicons{
+    font-size: 24px;
+    margin: 5px;
+}
+.navbutton{
+    width: 150px;
+    background-color: rgb(253,76,130);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+nav{
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    margin: 15px;
+}
+.headertext{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.headerheading{
+    font-size: 64px;
+}
+.headerbuttons{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-1{
+    background: rgb(253,76,130);
+    color: white;
+}
+.btn-2{
+    background: rgb(145,194,53);
+    color: white;
+}
+.headercard{
+    padding: 20px;
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    background-color: white;   
+}
+.hcardicon{
+    font-size:40px;
+    margin-top: 20px;
+}
+.headercards{
+    position: relative;
+    top: -75px;
+}
+.image2{
+    width: 500px;
+    height: 800px;
+}
+.articlehead{
+    color: rgb(253,76,130);
+}
+.articletext{
+    font-size: 24px;
+}
+.articlelist >li{
+    font-size: 24px;
+}
+.articleicon{
+    color:rgb(253,76,130) ;
+}
+.oppointemnt{
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+}
+.Oppointmentheadig{
+    color:rgb(253,76,130) ;
+
+}
+.oppointemntform{
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+.oppointemntbuttun{
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(145,194,53) ;
+
+}
+.groomersmain{
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.groomheadings{
+    margin: 30px;
+}
+.groomtitle{
+    color:rgb(253,76,130) ;
+
+}
+.gcards{
+    width: 250px;
+    height: 400px;
+}
+.groomimg{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.groomicons{
+    font-size: 28px;
+    color: rgb(253,76,130);
+}
+.customermain{
+    height: 600px;
+    background-image: url(./Images/image3.webp);
+    background-color: rgb(253,76,130);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.fcard{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+.fcard >img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.pricingtext{
+    margin: 50px;
+    text-align: center;
+}
+.pcard{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+}

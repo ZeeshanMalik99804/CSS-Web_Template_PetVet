@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(248,249,250);
+}
 header{
     width: 100%;
     height: 100vh;
@@ -140,7 +143,7 @@ li{
 }
 .groomimg{
     width: 100%;
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 10px solid white;
 }
@@ -152,6 +155,7 @@ li{
     height: 600px;
     background-image: url(./Images/image3.webp);
     background-color: rgb(253,76,130);
+    
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -175,4 +179,31 @@ li{
     width: 250px;
     height: 700px;
     border: 1px solid black;
+}
+.pcard >img{
+    width: 250px;
+    height: 250px;
+}
+.pricetext{
+    text-align: center;
+}
+.checklist{
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 50px;
+}
+.checkicon{
+    font-size: 25px;
+    margin: 0 10px;
+    color:rgb(253,76,130);
+}
+.pricetext >button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color:rgb(253,76,130);
+
 }
